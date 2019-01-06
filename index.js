@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = app => {
   // Trigger whenever a label is assigned to an issue.
   app.on('issues.labeled', async context => {
@@ -26,10 +28,10 @@ module.exports = app => {
         // Initialize Twitter client.
         let Twitter = require('twit')
         let t = new Twitter({
-          consumer_key: '...',
-          consumer_secret: '...',
-          access_token: '...',
-          access_token_secret: '...',
+          consumer_key: process.env.CUSTOMER_KEY,
+          consumer_secret: process.env.CUSTOMER_SECRET,
+          access_token: process.env.ACCESS_TOKEN,
+          access_token_secret: process.env.ACCESS_TOKEN_SECRET,
           timeout_ms: 60 * 1000  // optional HTTP request timeout to apply to all requests.
         })
 
