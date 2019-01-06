@@ -1,0 +1,49 @@
+{
+  "name": "help-tweet",
+  "version": "1.0.0",
+  "description": "An APP to tweet whenever an issue with help label is created.",
+  "author": "Thrijith Thankachan <thrijith13@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/thrijith/help-tweet.git",
+  "homepage": "https://github.com/thrijith/help-tweet",
+  "bugs": "https://github.com/thrijith/help-tweet/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "standard"
+  },
+  "dependencies": {
+    "probot": "^7.2.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
