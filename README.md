@@ -2,6 +2,12 @@
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that tweets whenever a label with help is added to an issue.
 
+### Installation in your repository.
+[![Install App](https://i.imgur.com/Voq6F5T.png)](https://vimeo.com/322490938 "Install Help Tweet App - Click to Watch!")
+
+### How it works!
+[![App in Action](https://i.imgur.com/UznxmM8.png)](https://vimeo.com/322490920 "App in Action - Click to Watch!")
+
 ## Setup
 
 ```sh
