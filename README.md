@@ -5,6 +5,8 @@
 ### Installation in your repository.
 [![Install App](https://i.imgur.com/Voq6F5T.png)](https://vimeo.com/322490938 "Install Help Tweet App - Click to Watch!")
 
+Click [here](https://github.com/apps/help-tweet) to visit installation page.
+
 ### How it works!
 [![App in Action](https://i.imgur.com/UznxmM8.png)](https://vimeo.com/322490920 "App in Action - Click to Watch!")
 
