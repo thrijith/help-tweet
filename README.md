@@ -10,6 +10,9 @@ Click [here](https://github.com/apps/help-tweet) to visit installation page.
 ### How it works!
 [![App in Action](https://i.imgur.com/UznxmM8.png)](https://vimeo.com/322490920 "App in Action - Click to Watch!")
 
+### Where will my tweet appear? :thinking:
+Right now, it will be posted on this app's own twitter handle [gh_issue_help](https://twitter.com/gh_issue_help).
+
 ## Setup
 
 ```sh
